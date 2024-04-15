@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cine-roxy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df26a81606d4b71419e28da4f49f5846e8d4a169")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57734d89700ca27926c28a11adb838c16b885221")]
 [assembly: System.Reflection.AssemblyProductAttribute("cine-roxy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cine-roxy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
