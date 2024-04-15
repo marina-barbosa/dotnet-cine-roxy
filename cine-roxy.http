@@ -1,0 +1,6 @@
+@cine_roxy_HostAddress = http://localhost:5018
+
+GET {{cine_roxy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
