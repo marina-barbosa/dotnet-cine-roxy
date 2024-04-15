@@ -7,6 +7,7 @@ public class Movie
     [Key]
     [Required]
     public int Id { get; set; }
+    [Required]
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public int ReleaseYear { get; set; }
@@ -14,7 +15,8 @@ public class Movie
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
     public DateTime? DeletedAt { get; set; } = null;
     public bool IsDeleted { get; set; } = false;
-    
+
+    [Required]
     public int GenreId { get; set; }
     public virtual Genre Genre { get; set; } = null!;
 
